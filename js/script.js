@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".toggle-mnu").on("click", function () {
         $(this).toggleClass("on");
-        $("#hide").toggleClass("menu-mobile");
+        $("hidden_menu").toggleClass("menu-mobile");
         return false;
     });
     $(".cross_news").on("click", function () {
