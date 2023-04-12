@@ -1,0 +1,73 @@
+/*Start Mobile Menu*/
+#hidden_menu {
+    display: none;
+    width: 500px;
+    height: 100%;
+    overflow: scroll;
+    background-color: black;
+    opacity: .9;
+    position: absolute;
+}
+
+#hidden_menu {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+#hidden_menu li a:link,
+#hidden_menu li a:visited {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 30px 20px 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a0a0a0;
+    display: block;
+    font-weight: 750;
+    font-size: medium;
+}
+
+.menu-mobile {
+    display: block !important;
+}
+
+#hidden_menu li a i span,
+#hidden_menu li a i span::before {
+    width: 11px;
+    height: 2.5px;
+    background-color: rgb(199, 199, 199);
+    float: right;
+    border-radius: 0px;
+}
+
+#hidden_menu li a i span::before {
+    transform: rotate(90deg) translate(-8.5px, -0.5px);
+}
+
+#hidden_menu li a i span::after {
+    display: none;
+}
+
+.on_m span::before {
+    display: none;
+}
+
+
+.submenu_m {
+    display: block !important;
+}
+
+#submenu_m_off_news {
+    display: none;
+}
+
+#submenu_m_off_fb {
+    display: none;
+}
+
+#submenu_m_off_sport {
+    display: none;
+}
+
+#submenu_m_off_tv {
+    display: none;
+}

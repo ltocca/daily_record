@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/* $(document).ready(function () {
     $(".toggle-mnu").on("click", function () {
         $(this).toggleClass("on");
         $("hidden_menu").toggleClass("menu-mobile");
@@ -22,6 +22,24 @@ $(document).ready(function () {
     $(".cross_tv").on("click", function () {
         $(this).toggleClass("on_m");
         $("#submenu_m_off_tv").toggleClass("submenu_m");
+        return false;
+    });
+}); */
+
+$(document).ready(function(){
+    $("#hamburger").on("click", function() {
+        $("#hidden_menu").toggleClass("side-menu")
+        $("#secondary_nav").toggleClass("toBlur")
+        $("#overlay").toggleClass("grayOverlay")
+        return false;
+    });
+});
+
+$(document).ready(function(){
+    $("#cross").on("click", function() {
+        $("#hiddenMenu").toggleClass("side-menu")
+        $("#page").toggleClass("toBlur")
+        $("#overlay").toggleClass("grayOverlay")
         return false;
     });
 });

@@ -1,6 +1,6 @@
 .profile_icon{
     max-font-size:0.35em;
-    font-size: 40%; /* change font size should change size of icon */
+    font-size: 35%; /* change font size should change size of icon */
     float:left; margin:1em;  /* remove this line to avoid float/margin */
 }
 .profile_icon{
@@ -24,7 +24,7 @@
     border-radius:2em 2em 0 0;
 }
 
-.toggle-mnu{
+.hamburger{
     display: none;
     width: 35px;
     height: 35px;
@@ -67,7 +67,7 @@ span:after {
         font-size: 30%;
     }
 
-    .toggle-mnu {
+    .hamburger {
         display: block;
         position: relative;
         width: 30px;
