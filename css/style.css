@@ -4,11 +4,10 @@
     margin: 0;
     padding: 0;
 
-
 }
 
 body {
-    font-family: "Signika", "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #ffffff;
 }
 
@@ -18,4 +17,6 @@ ul {
 
 
 /*end GENERAL RULES*/
+
+/*start NAVIGATION RULES*/
 

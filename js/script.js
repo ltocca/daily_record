@@ -1,7 +1,7 @@
 /* $(document).ready(function () {
     $(".toggle-mnu").on("click", function () {
         $(this).toggleClass("on");
-        $("hidden_menu").toggleClass("menu-mobile");
+        $("#hide").toggleClass("menu-mobile");
         return false;
     });
     $(".cross_news").on("click", function () {
@@ -29,7 +29,8 @@
 $(document).ready(function(){
     $("#hamburger").on("click", function() {
         $("#hidden_menu").toggleClass("side-menu")
-        $("#secondary_nav").toggleClass("toBlur")
+        $("#navbar").toggleClass("toBlur")
+        $("#news").toggleClass("toBlur")
         $("#overlay").toggleClass("grayOverlay")
         return false;
     });
