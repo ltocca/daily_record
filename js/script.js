@@ -17,23 +17,26 @@ $(document).ready(function(){
     $("#news_menu").on("click", function() {
         $("#news_submenu").toggleClass("mobile")
         $("#news_menu").toggleClass("mobile")
-
         return false;
     });
     $("#football_menu").on("click", function() {
         $("#football_submenu").toggleClass("mobile")
+        $("#football_menu").toggleClass("mobile")
         return false;
     });
     $("#sport_menu").on("click", function() {
         $("#sport_submenu").toggleClass("mobile")
+        $("#sport_menu").toggleClass("mobile")
         return false;
     });
     $("#celeb_menu").on("click", function() {
         $("#celeb_submenu").toggleClass("mobile")
+        $("#celeb_menu").toggleClass("mobile")
         return false;
     });
     $("#more_menu").on("click", function() {
         $("#more_submenu").toggleClass("mobile")
+        $("#more_menu").toggleClass("mobile")
         return false;
     });
 });

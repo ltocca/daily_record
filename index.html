@@ -9,11 +9,6 @@
     <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="css/icons.css" type="text/css">
-    <link rel="stylesheet" href="css/hidden_menu.css" type="text/css">
-
-    <link rel="stylesheet" href="css/news.css" type="text/css">
     <link rel="icon" href="images/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/script.js"></script>
@@ -22,420 +17,431 @@
 </head>
 
 <body>
-    <div id = navbar>
-        <nav>
-            <div class="logos">
-                <div><a href="#" class="hamburger"><span></span></a>
-                    <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
-                </div>
+<div id=navbar>
+    <nav>
+        <div class="logos">
+            <div><a href="#" class="hamburger"><span></span></a>
+                <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
             </div>
-            <div class="voices">
-                <ul class="menu">
-                    <li><a href="#" title="News">NEWS<i class="dropdown-arrow"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Latest news</a></li>
-                            <li><a href="#">Scottish news</a></li>
-                            <li><a href="#">UK and World news</a></li>
-                            <li><a href="#">Politics</a></li>
-                            <li><a href="#">Crime</a></li>
-                            <li><a href="#">Health</a></li>
-                            <li><a href="#">Real Life</a></li>
-                            <li><a href="#">Business & Consumer</a></li>
-                            <li><a href="#">Weird News</a></li>
-                            <li><a href="#">Science & Technology</a></li>
-                            <li><a href="#">News by Area</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" title="politics">POLITICS</a></li>
-                    <li><a href="#" title="football">FOOTBALL<i class="dropdown-arrow"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Scottish Premiership</a></li>
-                            <li><a href="#">Scottish Championship</a></li>
-                            <li><a href="#">Scottish Cup</a></li>
-                            <li><a href="#">Premier Sport Cup</a></li>
-                            <li><a href="#">Scotland Football Team</a></li>
-                            <li><a href="#">Transfer News</a></li>
-                            <li><a href="#">English Premier League</a></li>
-                        </ul>
-                    <li><a href="#" title="sport">SPORT<i class="dropdown-arrow"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Latest Sport</a></li>
-                            <li><a href="#">Football</a></li>
-                            <li><a href="#">Horse Racing</a></li>
-                            <li><a href="#">Rugby</a></li>
-                            <li><a href="#">Golf</a></li>
-                            <li><a href="#">Tennis</a></li>
-                            <li><a href="#">Boxe</a></li>
-                            <li><a href="#">Darts</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" title="tv_celeb">TV & CELEBS<i class="dropdown-arrow"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Latest Celebs</a></li>
-                            <li><a href="#">Celebrity News</a></li>
-                            <li><a href="#">TV & Radio News</a></li>
-                            <li><a href="#">Celebrity Interviews</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" title="life">LIFE & STYLE</a></li>
-                    <li><a href="#" title="more">MORE<i class="dropdown-arrow"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Partner Stories</a></li>
-                            <li><a href="#">Scotland Now</a></li>
-                            <li><a href="#">In Your Area</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Travel</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="buttons">
-                <div class="icons_group">
-                    <div class="social">
-                        <a href="#" title="facebook"><img src="images/facebook_white.png" alt="facebook logo"></a>
-                        <a href="#" title="twitter"><img src="images/twitter_white.png" alt="twitter logo"></a>
-                        <a href="#" title="instagram"><img src="images/instagram_white.png" alt="instagram logo" style="width: 32px;"></a>
-                    </div>
-                    <div class="vl"></div>
-                    <div class="search">
-                        <a href="#" title="search"><img src="images/search_white.svg" alt="search icon"></a>
-                    </div>
-                </div>
-                <div class="angle"></div>
-                <div class="user">
-                    <!--<a href="#" title="user"><img src="images/user.png"></a>-->
-                    <a href="#" title="user"><div class="profile_icon"><i></i></div></a>
-                </div>
-            </div>
-        </nav>
-        <div class = "secondary_nav">
-            <ul class="menu_2" >
-                <li><a href="#">BUY A PAPER</a></li>
-                <li><a href="#">ROAD RECORD</a></li>
-                <li><a href="#">PROPERTY</a></li>
-                <li><a href="#">MARKETPLACE</a></li>
-                <li><a href="#">COMPETITIONS</a></li>
-                <li><a href="#">HOROSCOPES</a></li>
-                <li><a href="#">DEALS</a></li>
-                <li><a href="#">FUNERAL NOTICES</a></li>
-                <li><a href="#">JOBS</a></li>
-                <li><a href="#">CROSSWORDS</a></li>
-                <li><a href="#">ADVERTISE WITH US</a></li>
-                <li><a href="#">NEWSLETTER SIGNUP</a></li>
-            </ul>
-
         </div>
-
-        <div id="hidden_menu">
+        <div class="voices">
             <ul class="menu">
-                <li><a href="#" title="News">NEWS<span id="news_menu" class="plus"></span></a>
-                    <ul class="submenu" id="news_submenu">
-                        <li><a href="#">LATEST NEWS</a></li>
-                        <li><a href="#">SCOTTISH NEWS</a></li>
-                        <li><a href="#">UK AND WORLD NEWS</a></li>
-                        <li><a href="#">POLITICS</a></li>
-                        <li><a href="#">CRIME</a></li>
-                        <li><a href="#">HEALTH</a></li>
-                        <li><a href="#">REAL LIFE</a></li>
-                        <li><a href="#">BUSINESS & CONSUMER</a></li>
-                        <li><a href="#">WEIRD NEWS</a></li>
-                        <li><a href="#">SCIENCE & TECHNOLOGY</a></li>
-                        <li><a href="#">NEWS BY AREA</a></li>
+                <li><a href="#" title="News">NEWS<i class="dropdown-arrow"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Latest news</a></li>
+                        <li><a href="#">Scottish news</a></li>
+                        <li><a href="#">UK and World news</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Crime</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Real Life</a></li>
+                        <li><a href="#">Business & Consumer</a></li>
+                        <li><a href="#">Weird News</a></li>
+                        <li><a href="#">Science & Technology</a></li>
+                        <li><a href="#">News by Area</a></li>
                     </ul>
                 </li>
                 <li><a href="#" title="politics">POLITICS</a></li>
-                <li><a href="#" title="football">FOOTBALL<span id="football_menu" class="plus"></span></a>
-                    <ul id="football_submenu" class="submenu">
-                        <li><a href="#">SCOTTISH PREMIERSHIP</a></li>
-                        <li><a href="#">SCOTTISH CHAMPIONSHIP</a></li>
-                        <li><a href="#">SCOTTISH CUP</a></li>
-                        <li><a href="#">PREMIER SPORT CUP</a></li>
-                        <li><a href="#">SCOTLAND FOOTBALL TEAM</a></li>
-                        <li><a href="#">TRANSFER NEWS</a></li>
-                        <li><a href="#">ENGLISH PREMIER LEAGUE</a></li>
+                <li><a href="#" title="football">FOOTBALL<i class="dropdown-arrow"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Scottish Premiership</a></li>
+                        <li><a href="#">Scottish Championship</a></li>
+                        <li><a href="#">Scottish Cup</a></li>
+                        <li><a href="#">Premier Sport Cup</a></li>
+                        <li><a href="#">Scotland Football Team</a></li>
+                        <li><a href="#">Transfer News</a></li>
+                        <li><a href="#">English Premier League</a></li>
                     </ul>
-                <li><a href="#" title="sport">SPORT<span id="sport_menu" class="plus"></span></a>
-                    <ul id="sport_submenu" class="submenu">
-                        <li><a href="#">LATEST SPORT</a></li>
-                        <li><a href="#">FOOTBALL</a></li>
-                        <li><a href="#">HORSE RACING</a></li>
-                        <li><a href="#">RUGBY</a></li>
-                        <li><a href="#">GOLF</a></li>
-                        <li><a href="#">TENNIS</a></li>
-                        <li><a href="#">BOXE</a></li>
-                        <li><a href="#">DARTS</a></li>
+                <li><a href="#" title="sport">SPORT<i class="dropdown-arrow"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Latest Sport</a></li>
+                        <li><a href="#">Football</a></li>
+                        <li><a href="#">Horse Racing</a></li>
+                        <li><a href="#">Rugby</a></li>
+                        <li><a href="#">Golf</a></li>
+                        <li><a href="#">Tennis</a></li>
+                        <li><a href="#">Boxe</a></li>
+                        <li><a href="#">Darts</a></li>
                     </ul>
                 </li>
-                <li><a href="#" title="tv_celeb">TV & CELEBS<span id="celeb_menu" class="plus"></span></a>
-                    <ul id="celeb_submenu" class="submenu">
-                        <li><a href="#">LATEST CELEBS</a></li>
-                        <li><a href="#">CELEBRITY NEWS</a></li>
-                        <li><a href="#">TV & RADIO NEWS</a></li>
-                        <li><a href="#">CELEBRITY INTERVIEWS</a></li>
+                <li><a href="#" title="tv_celeb">TV & CELEBS<i class="dropdown-arrow"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Latest Celebs</a></li>
+                        <li><a href="#">Celebrity News</a></li>
+                        <li><a href="#">TV & Radio News</a></li>
+                        <li><a href="#">Celebrity Interviews</a></li>
                     </ul>
                 </li>
                 <li><a href="#" title="life">LIFE & STYLE</a></li>
-                <li><a href="#" title="more">MORE<span id="more_menu" class="plus"></span></a>
-                    <ul id="more_submenu" class="submenu">
-                        <li><a href="#">PARTNER STORIES</a></li>
-                        <li><a href="#">SCOTLAND NOW</a></li>
-                        <li><a href="#">IN YOUR AREA</a></li>
-                        <li><a href="#">BUSINESS</a></li>
-                        <li><a href="#">TRAVEL</a></li>
+                <li><a href="#" title="more">MORE<i class="dropdown-arrow"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Partner Stories</a></li>
+                        <li><a href="#">Scotland Now</a></li>
+                        <li><a href="#">In Your Area</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Travel</a></li>
                     </ul>
                 </li>
             </ul>
-            <ul id="secondary_menu_m" class="menu" >
-                <li><a href="#">BUY A PAPER</a></li>
-                <li><a href="#">ROAD RECORD</a></li>
-                <li><a href="#">PROPERTY</a></li>
-                <li><a href="#">MARKETPLACE</a></li>
-                <li><a href="#">COMPETITIONS</a></li>
-                <li><a href="#">HOROSCOPES</a></li>
-                <li><a href="#">DEALS</a></li>
-                <li><a href="#">FUNERAL NOTICES</a></li>
-                <li><a href="#">JOBS</a></li>
-                <li><a href="#">CROSSWORDS</a></li>
-                <li><a href="#">ADVERTISE WITH US</a></li>
-                <li><a href="#">NEWSLETTER SIGNUP</a></li>
-            </ul>
         </div>
+        <div class="buttons">
+            <div class="icons_group">
+                <div class="social">
+                    <a href="#" title="facebook"><img src="images/facebook_white.png" alt="facebook logo"></a>
+                    <a href="#" title="twitter"><img src="images/twitter_white.png" alt="twitter logo"></a>
+                    <a href="#" title="instagram"><img src="images/instagram_white.png" alt="instagram logo"
+                                                       style="width: 32px;"></a>
+                </div>
+                <div class="vl"></div>
+                <div class="search">
+                    <a href="#" title="search"><img src="images/search_white.svg" alt="search icon"></a>
+                </div>
+            </div>
+            <div class="angle"></div>
+            <div class="user">
+                <a href="#" title="user">
+                    <div class="profile_icon"><i></i></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="secondary_nav">
+        <ul class="menu_2">
+            <li><a href="#">BUY A PAPER</a></li>
+            <li><a href="#">ROAD RECORD</a></li>
+            <li><a href="#">PROPERTY</a></li>
+            <li><a href="#">MARKETPLACE</a></li>
+            <li><a href="#">COMPETITIONS</a></li>
+            <li><a href="#">HOROSCOPES</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">FUNERAL NOTICES</a></li>
+            <li><a href="#">JOBS</a></li>
+            <li><a href="#">CROSSWORDS</a></li>
+            <li><a href="#">ADVERTISE WITH US</a></li>
+            <li><a href="#">NEWSLETTER SIGNUP</a></li>
+        </ul>
+
     </div>
 
-    
+    <div id="hidden_menu">
+        <ul class="menu">
+            <li><a href="#" title="News">NEWS<span id="news_menu" class="plus"></span></a>
+                <ul class="submenu" id="news_submenu">
+                    <li><a href="#">LATEST NEWS</a></li>
+                    <li><a href="#">SCOTTISH NEWS</a></li>
+                    <li><a href="#">UK AND WORLD NEWS</a></li>
+                    <li><a href="#">POLITICS</a></li>
+                    <li><a href="#">CRIME</a></li>
+                    <li><a href="#">HEALTH</a></li>
+                    <li><a href="#">REAL LIFE</a></li>
+                    <li><a href="#">BUSINESS & CONSUMER</a></li>
+                    <li><a href="#">WEIRD NEWS</a></li>
+                    <li><a href="#">SCIENCE & TECHNOLOGY</a></li>
+                    <li><a href="#">NEWS BY AREA</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="politics">POLITICS</a></li>
+            <li><a href="#" title="football">FOOTBALL<span id="football_menu" class="plus"></span></a>
+                <ul id="football_submenu" class="submenu">
+                    <li><a href="#">SCOTTISH PREMIERSHIP</a></li>
+                    <li><a href="#">SCOTTISH CHAMPIONSHIP</a></li>
+                    <li><a href="#">SCOTTISH CUP</a></li>
+                    <li><a href="#">PREMIER SPORT CUP</a></li>
+                    <li><a href="#">SCOTLAND FOOTBALL TEAM</a></li>
+                    <li><a href="#">TRANSFER NEWS</a></li>
+                    <li><a href="#">ENGLISH PREMIER LEAGUE</a></li>
+                </ul>
+            <li><a href="#" title="sport">SPORT<span id="sport_menu" class="plus"></span></a>
+                <ul id="sport_submenu" class="submenu">
+                    <li><a href="#">LATEST SPORT</a></li>
+                    <li><a href="#">FOOTBALL</a></li>
+                    <li><a href="#">HORSE RACING</a></li>
+                    <li><a href="#">RUGBY</a></li>
+                    <li><a href="#">GOLF</a></li>
+                    <li><a href="#">TENNIS</a></li>
+                    <li><a href="#">BOXE</a></li>
+                    <li><a href="#">DARTS</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="tv_celeb">TV & CELEBS<span id="celeb_menu" class="plus"></span></a>
+                <ul id="celeb_submenu" class="submenu">
+                    <li><a href="#">LATEST CELEBS</a></li>
+                    <li><a href="#">CELEBRITY NEWS</a></li>
+                    <li><a href="#">TV & RADIO NEWS</a></li>
+                    <li><a href="#">CELEBRITY INTERVIEWS</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="life">LIFE & STYLE</a></li>
+            <li><a href="#" title="more">MORE<span id="more_menu" class="plus"></span></a>
+                <ul id="more_submenu" class="submenu">
+                    <li><a href="#">PARTNER STORIES</a></li>
+                    <li><a href="#">SCOTLAND NOW</a></li>
+                    <li><a href="#">IN YOUR AREA</a></li>
+                    <li><a href="#">BUSINESS</a></li>
+                    <li><a href="#">TRAVEL</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="secondary_menu_m" class="menu">
+            <li><a href="#">BUY A PAPER</a></li>
+            <li><a href="#">ROAD RECORD</a></li>
+            <li><a href="#">PROPERTY</a></li>
+            <li><a href="#">MARKETPLACE</a></li>
+            <li><a href="#">COMPETITIONS</a></li>
+            <li><a href="#">HOROSCOPES</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">FUNERAL NOTICES</a></li>
+            <li><a href="#">JOBS</a></li>
+            <li><a href="#">CROSSWORDS</a></li>
+            <li><a href="#">ADVERTISE WITH US</a></li>
+            <li><a href="#">NEWSLETTER SIGNUP</a></li>
+        </ul>
+    </div>
+</div>
 
-    <div id="overlay"></div>
 
-    <div class="news">
-        <div class="main">
-            <div class="main_photo"><a href="#"><img src="https://placekitten.com/1240/520" alt="main phoyo"></a></div>
-            <div class="main_news">
-                <a href="#" title="title main" class="title_main">
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+<div id="overlay"></div>
+
+<div class="news">
+    <div class="main">
+        <div class="main_photo"><a href="#"><img src="https://placekitten.com/1240/520" alt="main phoyo"></a></div>
+        <div class="main_news">
+            <a href="#" title="title main" class="title_main">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </a>
+            <a href="#" title="title main sub" class="title_main_sub">
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui officia blanditiis maiores, voluptas facere?</h3>
+            </a>
+            <div class="main bookmark">
+                <a href="#">
+                    <span>Bookmark</span>
+                    <img src="images/bookmark.svg" alt="bookmark">
                 </a>
-                <a href="#" title="title main sub" class="title_main_sub">
-                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Exercitationem libero qui officia blanditiis maiores, voluptas facere?</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="news_container_row">
+        <div class="news-item-row vertical">
+            <a href="#"><img src="https://placekitten.com/250/180" alt=""> </a>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem libero qui...</a></p>
+            <div class="info">
+                <a href="#">
+                    <div class="comment">
+                        <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                            class="number"> 10</span>
+                    </div>
                 </a>
-                <div class="main bookmark">
-                    <a href="#">
+                <a href="#">
+                    <div class="bookmark">
                         <span>Bookmark</span>
                         <img src="images/bookmark.svg" alt="bookmark">
-                    </a>
-
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="news_container_row">
-            <div class="news-item-row vertical">
-                <a href="#"><img src="https://via.placeholder.com/250x180" alt=""> </a>
-                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Exercitationem libero qui...</a> </p>
-                <div class="info">
-                    <a href="#">
-                        <div class="comment">
-                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="bookmark">
-                            <span>Bookmark</span>
-                            <img src="images/bookmark.svg" alt="bookmark">
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="news-item-row vertical">
-                <a href="#"><img src="https://via.placeholder.com/250x180" alt=""> </a>
-                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Exercitationem libero qui...</a> </p>
-                <div class="info">
-                    <a href="#">
-                        <div class="comment">
-                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="bookmark">
-                            <span>Bookmark</span>
-                            <img src="images/bookmark.svg" alt="bookmark">
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="news-item-row vertical">
-                <a href="#"><img src="https://via.placeholder.com/250x180" alt=""> </a>
-                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Exercitationem libero qui...</a> </p>
-                <div class="info">
-                    <a href="#">
-                        <div class="comment">
-                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="bookmark">
-                            <span>Bookmark</span>
-                            <img src="images/bookmark.svg" alt="bookmark">
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="news-item-row vertical">
-                <a href="#"><img src="https://via.placeholder.com/250x180" alt=""> </a>
-                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Exercitationem libero qui...</a> </p>
-                <div class="info">
-                    <a href="#">
-                        <div class="comment">
-                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="bookmark">
-                            <span>Bookmark</span>
-                            <img src="images/bookmark.svg" alt="bookmark">
-                        </div>
-                    </a>
-                </div>
+        <div class="news-item-row vertical">
+            <a href="#"><img src="https://placekitten.com/250/180" alt=""> </a>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem libero qui...</a></p>
+            <div class="info">
+                <a href="#">
+                    <div class="comment">
+                        <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                            class="number"> 10</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bookmark">
+                        <span>Bookmark</span>
+                        <img src="images/bookmark.svg" alt="bookmark">
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="news_container_column vertical">
-            <div class="news_container_half vertical">
-                <div class="news-item-column-big">
-                    <div class="image_big"><a href="#"><img src="https://via.placeholder.com/535x350" alt=""> </a></div>
-                    <div class="text_big">
-                        <h2><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </a> </h2>
-                        <div class="info">
-                            <div class="comment">
-                                <a href="#">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                                </a>
-                            </div>
-                            <div class="bookmark">
-                                <a href="#">
-                                    <span>Bookmark</span>
-                                    <img src="images/bookmark.svg" alt="bookmark">
-                                </a>
-                            </div>
+        <div class="news-item-row vertical">
+            <a href="#"><img src="https://placekitten.com/250/180" alt=""> </a>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem libero qui...</a></p>
+            <div class="info">
+                <a href="#">
+                    <div class="comment">
+                        <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                            class="number"> 10</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bookmark">
+                        <span>Bookmark</span>
+                        <img src="images/bookmark.svg" alt="bookmark">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="news-item-row vertical">
+            <a href="#"><img src="https://placekitten.com/250/180" alt=""> </a>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem libero qui...</a></p>
+            <div class="info">
+                <a href="#">
+                    <div class="comment">
+                        <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                            class="number"> 10</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bookmark">
+                        <span>Bookmark</span>
+                        <img src="images/bookmark.svg" alt="bookmark">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="news_container_column vertical">
+        <div class="news_container_half vertical">
+            <div class="news-item-column-big">
+                <div class="image_big"><a href="#"><img src="https://placekitten.com/535/350" alt=""> </a></div>
+                <div class="text_big">
+                    <h2><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </a></h2>
+                    <div class="info">
+                        <div class="comment">
+                            <a href="#">
+                                <span>TOPIC</span> | <span><img src="images/message-regular.svg"
+                                                                alt="comment"></span><span class="number"> 10</span>
+                            </a>
+                        </div>
+                        <div class="bookmark">
+                            <a href="#">
+                                <span>Bookmark</span>
+                                <img src="images/bookmark.svg" alt="bookmark">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="news-item-column vertical">
-                    <a href="#"><img src="https://via.placeholder.com/400x250" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Exercitationem libero qui...</a> </p>
-                        <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="news-item-column vertical">
-                    <a href="#"><img src="https://via.placeholder.com/400x250" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Exercitationem libero qui...</a> </p>
-                    <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
             </div>
-            <div class="news_container_half_2 vertical">
-                <div class="news-item-column-small">
-                    <a href="#"><img src="https://via.placeholder.com/300x200" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Exercitationem libero qui...</a> </p>
-                    <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
+            <div class="news-item-column vertical">
+                <a href="#"><img src="https://placekitten.com/400/250" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
                 </div>
-                <div class="news-item-column-small">
-                    <a href="#"><img src="https://via.placeholder.com/300x200" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Exercitationem libero qui...</a> </p>
-                    <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
+            </div>
+            <div class="news-item-column vertical">
+                <a href="#"><img src="https://placekitten.com/400/250" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
                 </div>
-                <div class="news-item-column-small">
-                    <a href="#"><img src="https://via.placeholder.com/300x200" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Exercitationem libero qui...</a> </p>
-                    <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
+            </div>
+
+        </div>
+        <div class="news_container_half_2 vertical">
+            <div class="news-item-column-small">
+                <a href="#"><img src="https://placekitten.com/300/200" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
                 </div>
-                <div class="news-item-column-small">
-                    <a href="#"><img src="https://via.placeholder.com/300x200" alt=""> </a>
-                    <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Exercitationem libero qui...</a> </p>
-                    <div class="info">
-                        <a href="#">
-                            <div class="comment">
-                                <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span class="number"> 10</span>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="bookmark">
-                                <span>Bookmark</span>
-                                <img src="images/bookmark.svg" alt="bookmark">
-                            </div>
-                        </a>
-                    </div>
+            </div>
+            <div class="news-item-column-small">
+                <a href="#"><img src="https://placekitten.com/300/200" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="news-item-column-small">
+                <a href="#"><img src="https://placekitten.com/300/200" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="news-item-column-small">
+                <a href="#"><img src="https://placekitten.com/300/200" alt=""> </a>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Exercitationem libero qui...</a></p>
+                <div class="info">
+                    <a href="#">
+                        <div class="comment">
+                            <span>TOPIC</span> | <span><img src="images/message-regular.svg" alt="comment"></span><span
+                                class="number"> 10</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bookmark">
+                            <span>Bookmark</span>
+                            <img src="images/bookmark.svg" alt="bookmark">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    
 
 </body>
