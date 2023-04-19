@@ -97,28 +97,7 @@
         left: 3px;
     }
 
-    .dropdown-arrow:hover {
-        border-top: 6px solid lightgray;
-    }
-
-    .menu li a:hover .dropdown-arrow {
-        border-top: 6px solid lightgray;
-    }
-
-    .menu li a:hover {
-        color: lightgray;
-        max-width: 250px;
-    }
-
-    .menu li:hover ul {
-        position: absolute;
-        display: inline-flex;
-        flex-direction: column;
-/*         align-self: start;
-        align-content: center;
-        flex-basis: max-content; */
-        align-items: stretch;
-    }
+    
 
     .submenu {
         display: none;
@@ -184,11 +163,6 @@
     .submenu > li:last-child {
         border: none;
     }
-
-    .submenu li a:hover {
-        color: lightgray;
-    }
-
     .icons_group {
         display: inline-flex;
         /*margin-right: -20px ;*/
@@ -264,7 +238,7 @@
         z-index: -1;
         border-bottom: #e0e0e0 1.5px;
         border-bottom-style: solid;
-        border-bottom-width: 1.5px;
+        /*border-bottom-width: 1.5px;*/
     }
 
     .menu_2 {
@@ -292,12 +266,7 @@
         text-decoration: none;
     }
 
-    .menu_2 li a:hover {
-        /*z-index: 5;*/
-        /* font-weight: bolder; */
-        color: #828282;
-        text-decoration: underline;
-    }
+    
 
     
 
@@ -394,5 +363,41 @@
     }
     .icons_group {
         margin-right: -15px;
+    }
+}
+
+@media (hover: hover){
+    .dropdown-arrow:hover {
+        border-top: 6px solid lightgray;
+    }
+
+    .menu li a:hover .dropdown-arrow {
+        border-top: 6px solid lightgray;
+    }
+
+    .menu li a:hover {
+        color: lightgray;
+        max-width: 250px;
+    }
+
+    .menu li:hover ul {
+        position: absolute;
+        display: inline-flex;
+        flex-direction: column;
+/*         align-self: start;
+        align-content: center;
+        flex-basis: max-content; */
+        align-items: stretch;
+    }
+
+    .submenu li a:hover {
+        color: lightgray;
+    }
+
+    .menu_2 li a:hover {
+        /*z-index: 5;*/
+        /* font-weight: bolder; */
+        color: #828282;
+        text-decoration: underline;
     }
 }

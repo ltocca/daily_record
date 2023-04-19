@@ -358,6 +358,7 @@
 
     .news-item-column-small {
         margin: auto;
+        padding-bottom:60px;
         width: 100%;
         max-height: unset;
     }

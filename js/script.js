@@ -1,46 +1,39 @@
-/* $(document).ready(function () {
-    $(".toggle-mnu").on("click", function () {
-        $(this).toggleClass("on");
-        $("#hide").toggleClass("menu-mobile");
-        return false;
-    });
-    $(".cross_news").on("click", function () {
-        $(this).toggleClass("on_m");
-        $("#submenu_m_off_news").toggleClass("submenu_m");
-        return false;
-    });
-    $(".cross_fb").on("click", function () {
-        $(this).toggleClass("on_m");
-        $("#submenu_m_off_fb").toggleClass("submenu_m");
-        return false;
-    });
-    $(".cross_sport").on("click", function () {
-        $(this).toggleClass("on_m");
-        $("#submenu_m_off_sport").toggleClass("submenu_m");
-        return false;
-    });
-    $(".cross_tv").on("click", function () {
-        $(this).toggleClass("on_m");
-        $("#submenu_m_off_tv").toggleClass("submenu_m");
-        return false;
-    });
-}); */
-
 $(document).ready(function(){
-    $("#hamburger").on("click", function() {
-        $("#hidden_menu").toggleClass("side-menu")
-        $("#navbar").toggleClass("toBlur")
-        $("#news").toggleClass("toBlur")
-        $("#overlay").toggleClass("grayOverlay")
+    $(".hamburger").on("click", function() {
+        $(".hamburger").toggleClass("close")
+        $("#hidden_menu").toggleClass("mobile")
+        $("body").toggleClass("mobile")
+        $(".menu").toggleClass("mobile")
+        $(".secondary_nav").toggleClass("mobile")
+        // $(".submenu").toggleClass("mobile")
+        $(".search").toggleClass("mobile")
+        $(".social").toggleClass("mobile")
+        $(".logo").toggleClass("mobile")
         return false;
     });
 });
 
 $(document).ready(function(){
-    $("#cross").on("click", function() {
-        $("#hiddenMenu").toggleClass("side-menu")
-        $("#page").toggleClass("toBlur")
-        $("#overlay").toggleClass("grayOverlay")
+    $("#news_menu").on("click", function() {
+        $("#news_submenu").toggleClass("mobile")
+        $("#news_menu").toggleClass("mobile")
+
+        return false;
+    });
+    $("#football_menu").on("click", function() {
+        $("#football_submenu").toggleClass("mobile")
+        return false;
+    });
+    $("#sport_menu").on("click", function() {
+        $("#sport_submenu").toggleClass("mobile")
+        return false;
+    });
+    $("#celeb_menu").on("click", function() {
+        $("#celeb_submenu").toggleClass("mobile")
+        return false;
+    });
+    $("#more_menu").on("click", function() {
+        $("#more_submenu").toggleClass("mobile")
         return false;
     });
 });
