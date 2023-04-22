@@ -14,29 +14,30 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#news_menu").on("click", function() {
-        $("#news_submenu").toggleClass("mobile")
-        $("#news_menu").toggleClass("mobile")
+    $("#text_menu").on("click", function() {
+        $("#text_submenu").toggleClass("mobile")
+        $("#text_menu").toggleClass("mobile")
         return false;
     });
-    $("#football_menu").on("click", function() {
-        $("#football_submenu").toggleClass("mobile")
-        $("#football_menu").toggleClass("mobile")
+    $("#issues_menu").on("click", function() {
+        $("#issues_submenu").toggleClass("mobile")
+        $("#issues_menu").toggleClass("mobile")
         return false;
     });
-    $("#sport_menu").on("click", function() {
-        $("#sport_submenu").toggleClass("mobile")
-        $("#sport_menu").toggleClass("mobile")
+    $("#topic_menu").on("click", function() {
+        $("#topic_submenu").toggleClass("mobile")
+        $("#topic_menu").toggleClass("mobile")
         return false;
     });
-    $("#celeb_menu").on("click", function() {
-        $("#celeb_submenu").toggleClass("mobile")
-        $("#celeb_menu").toggleClass("mobile")
+    $("#motives_menu").on("click", function() {
+        $("#motives_submenu").toggleClass("mobile")
+        $("#motives_menu").toggleClass("mobile")
         return false;
     });
-    $("#more_menu").on("click", function() {
-        $("#more_submenu").toggleClass("mobile")
-        $("#more_menu").toggleClass("mobile")
+    $("#words_menu").on("click", function() {
+        $("#words_submenu").toggleClass("mobile")
+        $("#words_menu").toggleClass("mobile")
         return false;
     });
 });
+

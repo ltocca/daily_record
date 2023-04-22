@@ -656,7 +656,7 @@ body.mobile {
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #383838;
+    background-color: #2c2c2c;
 
     font-family: "Signika", sans-serif;
 }
@@ -735,23 +735,23 @@ body.mobile {
     justify-content: space-evenly;
 }
 
-.news-item-row {
+.news_item_row {
     display: block;
     object-fit: cover;
     width: 23%;
     height: 100%;
 }
 
-.news-item-row p {
+.news_item_row p {
     font-size: medium;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 
-.news-item-row p a:link,
-.news-item-row p a:visited,
-.news-item-row p a:hover {
+.news_item_row p a:link,
+.news_item_row p a:visited,
+.news_item_row p a:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -767,7 +767,7 @@ body.mobile {
 
 
 /*news colonna sinistra */
-.news_container_half {
+.news_container_left {
     width: 65%;
     height: 100%;
     display: flex;
@@ -778,7 +778,7 @@ body.mobile {
     justify-content: space-between;
 }
 
-.news-item-column {
+.news_item_column {
     display: block;
     object-fit: cover;
     width: 48%;
@@ -786,9 +786,9 @@ body.mobile {
     margin-top: 60px;
 }
 
-.news-item-column p a:link,
-.news-item-column p a:visited,
-.news-item-column p a:hover {
+.news_item_column p a:link,
+.news_item_column p a:visited,
+.news_item_column p a:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -796,7 +796,7 @@ body.mobile {
 }
 
 
-.news-item-column-big {
+.news_item_column_big {
     width: 100%;
 }
 
@@ -836,7 +836,7 @@ body.mobile {
 }
 
 
-.news_container_half_2 {
+.news_container_right {
     width: 35%;
     height: 100%;
     display: flex;
@@ -943,7 +943,7 @@ body.mobile {
         font-size: medium;
     }
 
-    .news_container_half {
+    .news_container_left {
         border-right: unset;
         padding-right: unset;
     }
@@ -954,7 +954,7 @@ body.mobile {
         flex-direction: column;
     }
 
-    .news-item-column-big {
+    .news_item_column_big {
         display: inline-flex;
         width: 100%;
         flex-direction: row-reverse;
@@ -962,7 +962,7 @@ body.mobile {
     }
 
     /*Da controllare*/
-    .news_container_half_2 {
+    .news_container_right {
         width: 100%;
         margin: 0 auto;
     }
