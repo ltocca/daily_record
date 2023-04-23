@@ -518,14 +518,14 @@ body.mobile {
     margin-bottom: 100px;
 }
 
-
-#hidden_menu li a:link {
-    color: #fff;
+#hidden_menu li a {
     text-decoration: none;
     margin: 10px 15px;
     font-weight: 750;
-    font-size: medium;
+    width: 95%;
+    justify-content: space-between;
 }
+
 
 .menu.mobile {
     flex-direction: column;
@@ -759,7 +759,6 @@ body.mobile {
 
 .news_container_column {
     width: 95%;
-    /*max-height: auto;*/
     margin: 50px auto;
     display: flex;
     flex-direction: row;
@@ -982,7 +981,6 @@ body.mobile {
 
     .news-item-column-small {
         margin: auto;
-        padding-bottom: 60px;
         width: 100%;
         max-height: unset;
     }
