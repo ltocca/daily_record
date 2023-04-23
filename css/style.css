@@ -623,8 +623,9 @@ body.mobile {
         overflow: scroll;
     }
 
-    #secondary_menu_m > li > a {
+    #secondary_menu_m  li  a {
         font-size: small;
+        color: #828282;
     }
 }
 
@@ -657,7 +658,6 @@ body.mobile {
     margin-left: auto;
     margin-right: auto;
     background-color: #2c2c2c;
-
     font-family: "Signika", sans-serif;
 }
 
@@ -749,9 +749,7 @@ body.mobile {
 }
 
 
-.news_item_row p a:link,
-.news_item_row p a:visited,
-.news_item_row p a:hover {
+.news_item_row p a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -785,9 +783,7 @@ body.mobile {
     margin-top: 60px;
 }
 
-.news_item_column p a:link,
-.news_item_column p a:visited,
-.news_item_column p a:hover {
+.news_item_column p a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -862,9 +858,7 @@ body.mobile {
     font-size: 15px;
 }
 
-.news-item-column-small p a:link,
-.news-item-column-small p a:visited,
-.news-item-column-small p a:hover {
+.news-item-column-small p a{
     font-weight: bold;
     text-decoration: none;
     color: black;
