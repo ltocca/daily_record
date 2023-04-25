@@ -18,10 +18,11 @@
 
 <body>
 <div id="navbar">
-    <nav>
+    <nav id="floating">
         <div class="logos">
             <div><a href="#" class="hamburger"><span></span></a>
                 <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+                <a href="#" class="alt_logo"><img src="images/logo_white.png" alt="alt_logo"></a>
             </div>
         </div>
         <div class="voices">
@@ -87,14 +88,25 @@
         <div class="buttons">
             <div class="icons_group">
                 <div class="social">
-                    <a href="#" title="facebook"><img src="images/facebook_white.png" alt="facebook logo"></a>
-                    <a href="#" title="twitter"><img src="images/twitter_white.png" alt="twitter logo"></a>
-                    <a href="#" title="instagram"><img src="images/instagram_white.png" alt="instagram logo"
-                                                       style="width: 32px;"></a>
+                    <a href="#" title="facebook">
+                        <img src="images/facebook_white.png" class="std" alt="facebook logo">
+                        <img src="images/facebook.svg" class="alt" alt="facebook logo">
+                    </a>
+                    <a href="#" title="twitter">
+                        <img src="images/twitter_white.png" class="std" alt="twitter logo">
+                        <img src="images/twitter.svg" class="alt" alt="twitter logo">
+                    </a>
+                    <a href="#" title="instagram">
+                        <img src="images/instagram_white.png" class="std" alt="instagram logo" style="width: 32px;">
+                        <img src="images/instagram.svg" class="alt" alt="instagram logo" style="width: 32px;">
+                    </a>
                 </div>
                 <div class="vl"></div>
                 <div class="search">
-                    <a href="#" title="search"><img src="images/search_white.svg" alt="search icon"></a>
+                    <a href="#" title="search">
+                        <!--<img src="images/search_white.svg" alt="search icon">-->
+                        <i class="gg-search"></i>
+                    </a>
                 </div>
             </div>
             <div class="angle"></div>
@@ -204,10 +216,10 @@
     <div class="main">
         <div class="main_photo"><a href="#"><img src="https://placekitten.com/1240/520" alt="main phoyo"></a></div>
         <div class="main_news">
-            <a href="#" title="title main" class="title_main">
+            <a href="#" title="main article" class="title_main">
                 <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
             </a>
-            <a href="#" title="title main sub" class="title_main_sub">
+            <a href="#" title="subtitle" class="title_main_sub">
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Exercitationem libero qui officia blanditiis maiores, voluptas facere?</h3>
             </a>

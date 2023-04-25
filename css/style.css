@@ -42,6 +42,10 @@ nav {
     height: 80px;
 }
 
+.alt_logo, .alt{
+    display: none;
+}
+
 .menu {
     display: inline-flex;
     height: 100%;
@@ -157,10 +161,10 @@ nav {
     max-width: 40px;
 }
 
-.search > a > img {
+/*.search > a > img {
     height: 64px;
     max-width: 75%;
-}
+}*/
 
 .vl {
     float: left;
@@ -289,12 +293,13 @@ nav {
         color: black;
     }
 
-    .user {
+/*    .user {
         width: 50%;
-    }
+    }*/
 
     .search {
         max-width: 60%;
+        padding-right: 25px;
     }
 
     .icons_group {
@@ -412,6 +417,33 @@ nav span:after {
     top: 18px;
 }
 
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+}
+
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: white;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+
 @media screen and (max-width: 1100px) {
     .profile_icon {
         font-size: 30%;
@@ -495,15 +527,10 @@ body.mobile {
     overflow: hidden;
 }
 
-.secondary_nav.mobile {
+.secondary_nav.mobile, #hidden_menu  {
     display: none
 }
 
-
-#hidden_menu {
-    display: none;
-
-}
 
 #hidden_menu.mobile {
     display: flex;
@@ -1011,4 +1038,51 @@ body.mobile {
     }
 }
 
+/* regole scroling */
 
+#floating.scrolled, #floating.scrolled .user, #floating.scrolled .close span{
+    background-color: white !important;
+}
+
+#floating.scrolled .alt_logo{
+    display: flex ;
+    max-width: 100%;
+    height: 80px;
+}
+
+#floating.scrolled .alt{
+    display: flex;
+    margin: unset;
+    width: 75%;
+}
+
+#floating.scrolled .search{
+    padding-right: 30px;
+}
+
+#floating.scrolled .profile_icon, #floating.scrolled .gg-search{
+    border: 3px solid black;
+}
+
+#floating.scrolled .profile_icon::before, #floating.scrolled .profile_icon::after {
+    background: black;
+}
+
+#floating.scrolled .menu, #floating.scrolled .logo, #floating.scrolled .angle, #floating.scrolled .std{
+    display: none;
+}
+
+#floating.scrolled span, #floating.scrolled span::before, #floating.scrolled span::after, #floating.scrolled .gg-search::after{
+    background-color: black;
+}
+
+@media screen and (max-width: 1100px){
+    #floating.scrolled .alt_logo img{
+        height: 50px;
+        padding-left: 10px;
+    }
+
+    .mobile #floating.scrolled .alt_logo {
+        display: none;
+    }
+}

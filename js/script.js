@@ -5,7 +5,6 @@ $(document).ready(function(){
         $("body").toggleClass("mobile")
         $(".menu").toggleClass("mobile")
         $(".secondary_nav").toggleClass("mobile")
-        // $(".submenu").toggleClass("mobile")
         $(".search").toggleClass("mobile")
         $(".social").toggleClass("mobile")
         $(".logo").toggleClass("mobile")
@@ -41,3 +40,16 @@ $(document).ready(function(){
     });
 });
 
+function color_scroll () {
+    var nav=document.getElementById("floating");
+
+    if (this.scrollY > 30) {
+        nav.classList.add("scrolled");
+
+    }
+    else {
+        nav.classList.remove("scrolled");
+    }
+}
+
+window.addEventListener("scroll", color_scroll, false)
