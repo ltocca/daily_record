@@ -307,7 +307,7 @@ nav {
     }
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
     .dropdown-arrow:hover {
         border-top: 6px solid lightgray;
     }
@@ -1142,7 +1142,7 @@ footer{
     text-decoration: none;
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
     .links ul li a:hover, footer .social_2 a:hover{
         text-decoration: underline;
     }
